@@ -17,3 +17,6 @@ function tudasuda($a)
 }
 
 var_dump(tudasuda($a));
+
+
+//переворачивает массив справа налево
