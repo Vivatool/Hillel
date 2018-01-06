@@ -1,3 +1,3 @@
 <?php
 
-require_once 'shablon.php';
+require_once './myCulc.php';
