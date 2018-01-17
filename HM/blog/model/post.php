@@ -51,12 +51,4 @@
           $res = $this->conn->query('SELECT title FROM posts');
           return $res->fetchAll(PDO::FETCH_ASSOC);
       }
-      public function getEvenPosts() {
-          $res = $this->conn->query('SELECT * FROM posts WHERE id % 2 = 0');
-          return $res->fetchAll(PDO::FETCH_ASSOC);
-      }
-      public function getSortedPosts() {
-          $res = $this->conn->query('SELECT * FROM posts ORDER BY id DESC');
-          return $res->fetchAll(PDO::FETCH_ASSOC);
-      }
   }
