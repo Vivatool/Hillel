@@ -14,18 +14,17 @@
 <div class="container">
     <div class="row justify-content-md-center">
         <div class="col-md-10">
-            <a href="/"><h1>Hello, user!</h1></a>
-
+        <a href="/"><h1>Hello, user!</h1></a>
         </div>
         <?php foreach ($post as $index => $title) { ?>
             <div class="col-md-10">
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <a href="/index.php?r=/post&id=<?php echo $index; ?>">
-                            <h1 class="display-3">
-                                <?php echo $title['title']; ?>
-                            </h1>
-                        </a>
+                    <a href="/index.php?r=/post&id=<?php echo $index; ?>">
+                          <h1 class="display-3">
+                          <?php echo $title['title']; ?>
+                          </h1>
+                    </a>
                     </div>
                 </div>
             </div>
