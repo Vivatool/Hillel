@@ -15,7 +15,7 @@
         <div class="col-md-10">
           <a href="/"><h1>Hello, user!</h1></a>
           <a href="/?r=/addPost">add new post</a><br>
-            <a href="/?r=/getTitles">Oll titles</a><br>
+            <a href="/?r=/getTitles">all titles</a><br>
         </div>
         <?php foreach ($posts as $index => $post) { ?>
           <div class="col-md-10">
